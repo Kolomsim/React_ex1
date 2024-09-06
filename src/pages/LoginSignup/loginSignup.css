@@ -18,6 +18,10 @@
 	text-align: center;
 }
 
+.error {
+    color: red;
+    padding: 5px;
+}
 
 .LoginInfoBlock h1 {
     font-size: 50px;

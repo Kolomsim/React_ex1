@@ -30,6 +30,7 @@ function App() {
 	return (
 		<Router>
 			<Routes>
+				<Route path='/' element={<Navigate to='/login' />} />
 				<Route path='/signup' element={<RegisterPage />} />
 				<Route
 					path='/login'
